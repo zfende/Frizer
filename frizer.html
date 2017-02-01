@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Hairdresser Mirko</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                    <a class="navbar-brand" href="#">Hairdresser Mirko</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <form class="nav navbar-nav navbar-right">
+                        <li><a href="#ponudba">Kaj nudimo</a></li>
+                        <li><a href="#narocilo">Naroči se</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal">O nas</a></li>
+                        <li>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Iskalnik">
+                            </div>
+                        </li>
+                    </form>
+                    </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <!--CAROUSEL-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="https://i.ytimg.com/vi/RWGLS9O5QGQ/maxresdefault.jpg" alt="slika1">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.ytimg.com/vi/Evu05WFYRyU/maxresdefault.jpg" alt="slika2">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.ytimg.com/vi/-BhziyDoo5Q/maxresdefault.jpg" alt="slika3">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--End Carousel-->
+        <br>
+        <hr>
+        <h1 class="text-center" id="ponudba">Kaj nudimo</h1>
+
+        <section class="col-sm-4">
+            <h3 class="text-center"> Nega Las </h3>
+            <img class="img-responsive" src="http://www.napovednik.com/pic/i/1/739/_57f1ee9c5793b.jpg" alt="Nega">
+        </section>
+
+        <section class="col-sm-4">
+            <h3 class="text-center"> Barvanje </h3>
+            <img class="img-responsive" src="http://allabouthaircolor.com/wp-content/uploads/2013/08/soothe-plus-hair-treatment.jpg" alt="Barvanje">
+        </section>
+
+        <section class="col-sm-4">
+            <h3 class="text-center"> Striženje </h3>
+            <img class="img-responsive" src="http://www.shimicreativehair.co.uk/s/cc_images/cache_2427215116.jpg" alt="Striženje">
+        </section>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <br>
+                <hr>
+                <h1 class="text-center" id="narocilo">Naroči se</h1>
+            </div>
+        </div>
+        <br>
+        <div class="col-sm-6">
+            <form>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Ime in Priimek">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Tel. številka">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Termin">
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Ostalo (želje glede pričeske itd.)"></textarea>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Strinjam se, da je Mirko najboljši frizer.
+                    </label>
+                </div>
+                <br>
+                <input type="submit" class="btn btn-success center center-block" value="Pošlji">
+            </form>
+        </div>
+
+        <section class="col-sm-6">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Dan</th>
+                        <th>Delovne Ure</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Pondeljek</th>
+                        <td>8.00 - 16.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Torek</th>
+                        <td>10.00 - 18.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sreda</th>
+                        <td>8.00 - 16.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Četrtek</th>
+                        <td>8.00 - 16.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Petek</th>
+                        <td>12.00 - 20.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sobota</th>
+                        <td>8.00 - 16.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Nedelja</th>
+                        <td>8.00 - 12.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5>* Ob praznikih velja nedeljski urnik </h5>
+        </section>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <hr>
+                <h1 class="text-center" id="faq">FAQ (pogosta vprašanja)</h1>
+            </div>
+        </div>
+        <br>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-success">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <strong>Kakšen je salon in ekipa?</strong>
+                </a>
+              </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        Salon je prostoren in domač in v njem delajo prijazne in sposobne frizerke, ki oblikujejo pričeske z občutkom in domišljijo.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-success">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <strong>Ali sprejemate hišne ljubljenčke?</strong>
+                </a>
+              </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-success">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <strong>Imate kakšne nagrade s tekmovanj?</strong>
+                </a>
+              </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <br>
+        <hr>
+        <footer>
+            <div class="col-sm-4">
+                <h4 class="text-center"><strong>Kontakt:</strong></h4>
+                <ul class="list-unstyled text-center">
+                    <li>Frizer Mirko s.p.</li>
+                    <li>Davčna številka: 324324234</li>
+                    <li>Frizerska ulica 5, 1000 Ljubljana</li>
+                    <li>Tel: 01/345 435 346</li>
+                    <li>Email: <a href="mailto:frizer.mirko@f-mirko.com">frizer.mirko@f-mirko.com</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <img src="http://webneel.com/sites/default/files/images/manual/logo/11-salon-barber-logo-design.png" class="img-responsive" alt="Logo">
+            </div>
+
+            <div class="col-sm-4">
+                <h4 class="text-center"><strong>Navigacija:</strong></h4>
+                <ul class="list-unstyled text-center">
+                    <li><a href="#ponudba" class="list">Kaj nudimo</a></li>
+                    <li><a href="#narocilo" class="list">Naroči se</a></li>
+                    <li><a href="#faq" class="list">FAQ</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">O nas</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Smo relativno mlad kolektiv, vedno nasmejani, prijazni. Imamo dolgoletne izkušnje z profesionalno lasno kozmetiko Schwarzkopf, v dogovoru z dolgoletnim partnerjem Hair Beauty d.o.o smo pa letos septembra začeli delati z profesionlano
+                            lasno kozmetiko Indola, katero oni distribuirajo.</p>
+                        <p>Salon je prostoren in domač in v njem delajo prijazne in sposobne frizerke, ki oblikujejo pričeske z občutkom in domišljijo.</p>
+                        <p> Pri nas je dobrodošel vsak, prepričani smo, da bomo želji vsakega posameznika lahko ustregli v našem delovnem času. Pravijo, da ni pomembna dolžina las, temveč šteje le urejena pričeska.</p>
+                        <img src="http://webneel.com/sites/default/files/images/manual/logo/11-salon-barber-logo-design.png" class="img-responsive" alt="Logo">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Zapri</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
